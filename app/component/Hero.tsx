@@ -2,9 +2,9 @@ import Image from "next/image";
 
 export default function Hero() {
   return (
-    <section className="w-[95%] max-w-[1500px] pb-12 mt-4">
+    <section id="hero" className="w-[95%] max-w-[1500px] pb-8 mt-1">
       <div 
-        className="relative rounded-[40px] overflow-hidden bg-gray-900 min-h-[500px] flex items-center shadow-2xl"
+        className="relative rounded-[40px] overflow-hidden bg-gray-900 min-h-[550px] lg:min-h-[600px] flex items-center shadow-2xl"
         style={{
           backgroundImage: "url('/images/banner.png')",
           backgroundSize: "cover",
@@ -20,10 +20,10 @@ export default function Hero() {
             Follow trusted advisors, get stock recommendations, & grow your portfolio with confidence.
           </p>
           <div className="flex flex-wrap gap-4 mt-8">
-            <button className="flex items-center justify-center w-[150px] h-[40px] bg-[linear-gradient(88.6deg,#194B56_50%,#277275_100%)] rounded-[50px] font-outfit font-semibold text-[18px] leading-[18px] tracking-[-0.0041em] text-white transition-opacity hover:opacity-90 shadow-lg">
+            <button className="flex items-center cursor-pointer justify-center w-[150px] h-[40px] bg-[linear-gradient(88.6deg,#194B56_50%,#277275_100%)] rounded-[50px] font-outfit font-semibold text-[18px] leading-[18px] tracking-[-0.0041em] text-white transition-opacity hover:opacity-90 shadow-lg">
               Get Started
             </button>
-            <button className="flex items-center justify-center w-[180px] h-[40px] bg-transparent border-2 border-white rounded-[50px] font-outfit font-semibold text-[18px] leading-[18px] tracking-[-0.0041em] text-white transition-colors hover:bg-white/10">
+            <button className="flex items-center cursor-pointer justify-center w-[180px] h-[40px] bg-transparent border-2 border-white rounded-[50px] font-outfit font-semibold text-[18px] leading-[18px] tracking-[-0.0041em] text-white transition-colors hover:bg-white/10">
               Explore Advisors
             </button>
           </div>
